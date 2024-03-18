@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="turn-container">
+        <h3>Turn For</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="main-grid">
+        <div class="box align"  id = "0,0"  onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "0,1" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "0,2" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "1,0" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "1,1" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "1,2" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "2,0" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "2,1" onclick="makeMove(this.id)">#</div>
+        <div class="box align"  id = "2,2" onclick="makeMove(this.id)">#</div>
+       
+    </div>
+    <h2 id="results"></h2>
+    <button id="play-again">Play Again</button>
+    <div id="leaderboard"></div>
+    <script src="script.js"></script>
+</body>
+</html>
